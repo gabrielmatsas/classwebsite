@@ -1,0 +1,55 @@
+.line1 {
+    height:300px;
+    margin:50px;
+    position:fixed;
+    color:aliceblue;
+}
+
+.line2 {
+    position:static;
+    height:300px;
+    margin:200px;
+    color:antiquewhite;
+}
+
+.line3 {
+    position:inherit;
+    height:300px;
+    margin:500px;
+    color:aqua;
+}
+
+.line4 {
+    position: relative;
+    height:300px;
+    margin:200px;
+    color:aquamarine;
+}
+
+.line5 {
+    position:static;
+    height:300px;
+    margin:400px;
+    color:coral;
+}
+
+.line6 {
+    position:sticky;
+    height:300px;
+    margin:50px;
+    color:beige;
+}
+
+.line7 {
+    position:static;
+    height:300px;
+    margin:250px;
+    color:bisque;
+}
+
+.line8 {
+    position:static;
+    height:300px;
+    margin:500px;
+    color:blanchedalmond;
+}
