@@ -1,0 +1,153 @@
+h6 {
+    color: black;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: helvetica;
+}
+
+h5 {
+    color: greenyellow;
+    font-weight: 800;
+    font-size: 102px;
+    font-family: helvetica;
+    
+}
+
+img {
+    max-width:100%;
+}
+
+.fixedtext {
+    font-size: 300px;
+    font-style: italic;
+    opacity: 5%;
+    display: flex;
+    position: fixed;
+    left: 250px;
+}
+
+.headertitle {
+    width: 100%;
+}
+
+.origin {
+    display: flex;
+    margin-left: 700px;
+    align-content: center;
+}
+
+.headerimage {
+    margin: -500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse 1s
+    infinite ease-in-out alternate;
+}
+
+.spider1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: run2 5s
+    infinite ease-in-out alternate;
+}
+
+.introductiontext {
+    padding: -100;
+    margin: -100;
+    display:flex; 
+    align-items: center;
+    align-content: center;
+}
+
+.comicpanel {
+    margin-top: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialogue1 {
+    display: flex;
+}
+
+.spiderbite1 {
+ align-items: flex-start;
+animation: pulse 1s
+infinite ease-in-out alternate;
+}
+
+.spiderbite1a {
+    max-width: 50%;
+    align-items: flex-end;
+}
+
+.parallax-window {
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    font-family: helvetica;
+    min-height: 800px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-window1 {
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    font-family: helvetica;
+    min-height: 400px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-window2 {
+    color: White;
+    font-size: 50px;
+    font-style: italic;
+    font-family: helvetica;
+    min-height: 1000px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comicpanel2 {
+    margin-top: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spider2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    animation: run3 5s
+    infinite ease-in-out alternate;
+}
+
+@keyframes run2 {
+    0% {transform:translateY(500px);}
+    100% {transform:translateY(100vh);}
+}
+
+@keyframes pulse {
+    0% {transform:scale(1);}
+    100% {transform:scale(1.2);}
+    
+@keyframes pulse2 {
+    0% {transform:scale(1);}
+    100% {transform:scale(3);}
+    
+@keyframes run3 {
+    0% {transform:translateX(100vw);}
+    100% {transform:translateX(-400px);}
+}

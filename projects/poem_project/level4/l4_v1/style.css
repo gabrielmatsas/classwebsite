@@ -1,0 +1,65 @@
+.line1 {
+    height:200px;
+    font-family:cursive;
+    font-weight:900;
+    font-size:50px;
+    text-align:center;
+}
+
+.line2 {
+    height:200px;
+    font-family:fantasy;
+    font-weight:800;
+    font-size:45px;
+    text-align:end;
+}
+
+.line3 {
+    height:200px;
+    font-family:inherit;
+    font-weight:700;
+    font-size:40px;
+    text-align:inherit;
+}
+
+.line4 {
+    font-family:monospace;
+    font-weight:600;
+    font-size:35px;
+    text-align:justify;
+}
+
+.line5 {
+    font-family:sans-serif;
+    font-weight:500;
+    font-size:30px;
+    text-align:left;
+}
+
+.line6 {
+    font-family:serif;
+    font-weight:400;
+    font-size:25px;
+    text-align:right;
+}
+
+.line7 {
+    font-family:cursive;
+    font-weight:300;
+    font-size:20px;
+    text-align:center;
+}
+
+.line8 {
+    font-family:fantasy;
+    font-weight:200;
+    font-size:15px;
+    text-align:end;
+}
+
+.line9 {
+    font-family:inherit;
+    font-weight:100;
+    font-size:10px;
+    text-align:inherit;
+}

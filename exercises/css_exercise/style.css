@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px
+}
+
+h1
+{
+    font-family: 'helvetica', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #BFD8D1;
+    height: 190px;
+    padding: 0px;
+    margin:0px;
+    font-size: 200px;
+    background: #168A94
+}
+
+p {
+    font-family: 'helvetica', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    color: #D03160;
+    background: #ED8080;
+    height: 190px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 150px
+}
+
+a {
+    font-family: 'helvetica', sans-serif;
+    font-weight: normal;
+    align-content: center
+    text-align: center;
+    color: #FFFFFF;
+    background: #2B374A;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 150px
+}
+
+a:hover {
+    color: mediumvioletred;
+    background: violet
+}
