@@ -4,6 +4,32 @@ body {
     background: #f1f1f1;
 }
 
+a {
+    text-decoration: none;
+    color: #313131;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #313131;
+}
+
+.navbar {
+    width: auto;
+    position: absolute;
+    margin: 5px;
+    padding: 5px;
+    top: 0;
+    right: 0;
+    color: #313131;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.navbar:hover {
+  transform: scale(1.5);
+}
+
 #menu {
     margin: 0;
     padding: 0;
